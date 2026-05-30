@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   Base Reset & Defaults
+   ============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply font-body text-charcoal bg-ivory;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  @apply font-body;
+}
+
+/* ============================================
+   Scroll Reveal Animation
+   ============================================ */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 600ms cubic-bezier(0.16, 1, 0.3, 1),
+              transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 100ms; }
+.reveal-delay-2 { transition-delay: 200ms; }
+.reveal-delay-3 { transition-delay: 300ms; }
+.reveal-delay-4 { transition-delay: 400ms; }
+.reveal-delay-5 { transition-delay: 500ms; }
+.reveal-delay-6 { transition-delay: 600ms; }
+
+/* ============================================
+   Section Styling
+   ============================================ */
+
+.section-padding {
+  @apply py-section px-6;
+}
+
+@media (max-width: 640px) {
+  .section-padding {
+    @apply py-section-mobile px-5;
+  }
+}
+
+.section-title {
+  @apply font-display text-charcoal text-center font-semibold mb-3;
+  font-size: 2.25rem;
+}
+
+@media (max-width: 640px) {
+  .section-title {
+    font-size: 1.625rem;
+  }
+}
+
+.section-subtitle {
+  @apply font-body text-warm-gray text-center mx-auto mb-12;
+  max-width: 520px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* ============================================
+   Decorative Divider
+   ============================================ */
+
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem auto;
+  max-width: 200px;
+}
+
+.ornament-divider::before,
+.ornament-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #C9A96E);
+}
+
+.ornament-divider::after {
+  background: linear-gradient(to left, transparent, #C9A96E);
+}
+
+.ornament-divider .diamond {
+  width: 6px;
+  height: 6px;
+  background: #C9A96E;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+/* ============================================
+   Custom Scrollbar
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-linen;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-champagne-light rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-champagne;
+}
+
+/* ============================================
+   Selection Color
+   ============================================ */
+
+::selection {
+  @apply bg-champagne text-white;
+}
+
+/* ============================================
+   Reduced Motion
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
