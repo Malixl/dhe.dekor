@@ -51,7 +51,7 @@ export default function WhyUs() {
             <span className="diamond" />
           </div>
           <p className="text-white/70 text-sm sm:text-base max-w-lg mx-auto font-body mt-4">
-            Kepercayaan ratusan klien di Gorontalo adalah bukti komitmen kami
+            Kepercayaan klien di Gorontalo adalah bukti komitmen kami
             menghadirkan dekorasi terbaik dengan harga terjangkau.
           </p>
         </div>

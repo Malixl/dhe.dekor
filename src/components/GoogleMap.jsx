@@ -39,7 +39,7 @@ export default function GoogleMap() {
             </div>
 
             {/* Floating Info Card */}
-            <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-auto sm:max-w-sm">
+            <div className="hidden sm:block absolute top-4 left-4 right-4 sm:top-6 sm:left-6 sm:right-auto sm:max-w-sm">
               <div className="bg-white/95 backdrop-blur-md rounded-xl p-5 shadow-xl border border-linen">
                 {/* Brand */}
                 <div className="flex items-center gap-3 mb-3">
