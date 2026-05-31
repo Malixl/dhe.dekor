@@ -7,7 +7,7 @@ export default function About() {
           <div className="reveal relative">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/5] max-w-sm mx-auto lg:max-w-none bg-gradient-to-tr from-champagne-light via-ivory to-champagne/30 flex items-center justify-center">
               <div className="w-40 h-40 rounded-full border-8 border-white/60 flex items-center justify-center shadow-2xl backdrop-blur-sm bg-white/30 overflow-hidden p-3">
-                 <img src="/Logo.png" alt="Logo dhe.dekorasi" className="w-full h-full object-contain" />
+                <img src="/Logo.png" alt="Logo dhe.dekorasi" className="w-full h-full object-contain" />
               </div>
             </div>
 
@@ -41,7 +41,7 @@ export default function About() {
                 layak tampil indah — tanpa harus menguras kantong.
               </p>
               <p className="text-warm-gray text-sm sm:text-base leading-relaxed mb-6">
-                Dengan pengalaman menangani lebih dari 200 acara, dari lamaran intim hingga
+                Dengan pengalaman menangani lebih dari 20 acara, dari lamaran intim hingga
                 syukuran besar, tim kami terlatih menghadirkan dekorasi yang estetik, rapi,
                 dan sesuai keinginan Anda. Kami memahami budaya dan selera masyarakat Gorontalo,
                 sehingga setiap dekorasi terasa personal dan bermakna.
