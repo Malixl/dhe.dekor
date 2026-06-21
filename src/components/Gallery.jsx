@@ -8,7 +8,7 @@ export default function Gallery() {
     <section id="galeri" className="section-padding bg-ivory">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
-        <div className="reveal text-center mb-10">
+        <div className="reveal-blur text-center mb-10">
           <span className="inline-block text-champagne text-xs font-body font-semibold tracking-[0.25em] uppercase mb-3">
             Portfolio
           </span>
@@ -27,7 +27,7 @@ export default function Gallery() {
           {GALLERY_ITEMS.map((item, index) => (
             <div
               key={item.id}
-              className={`reveal reveal-delay-${Math.min(index + 1, 6)} group relative aspect-square sm:aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-lg transition-all duration-300`}
+              className={`reveal-scale reveal-delay-${Math.min(index + 1, 6)} group relative aspect-square sm:aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1`}
               onClick={() => setLightbox(item)}
             >
               <img

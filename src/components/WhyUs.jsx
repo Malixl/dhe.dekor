@@ -43,7 +43,7 @@ export default function WhyUs() {
 
       <div className="relative z-10 max-w-6xl mx-auto px-5 sm:px-6">
         {/* Header */}
-        <div className="reveal text-center mb-10 sm:mb-14">
+        <div className="reveal-blur text-center mb-10 sm:mb-14">
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
             Mengapa Memilih Kami?
           </h2>
@@ -88,8 +88,8 @@ export default function WhyUs() {
               desc: 'Melayani area Kota Gorontalo dan seluruh kabupaten di Provinsi Gorontalo.',
             },
           ].map((feature, i) => (
-            <div key={i} className={`reveal reveal-delay-${i + 1} text-center`}>
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-champagne/15 text-champagne mb-4">
+            <div key={i} className={`reveal-scale reveal-delay-${i + 1} text-center group`}>
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-champagne/15 text-champagne mb-4 group-hover:scale-110 group-hover:bg-champagne/25 transition-all duration-400">
                 {feature.icon}
               </div>
               <h3 className="font-display text-lg font-semibold text-white mb-2">

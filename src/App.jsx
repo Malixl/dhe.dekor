@@ -28,7 +28,7 @@ export default function App() {
     );
 
     const timer = setTimeout(() => {
-      document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+      document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale, .reveal-blur').forEach((el) => observer.observe(el));
     }, 100);
 
     return () => {

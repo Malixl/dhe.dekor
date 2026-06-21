@@ -10,7 +10,7 @@ export default function Contact() {
 
       <div className="relative z-10 max-w-3xl mx-auto px-5 sm:px-6 text-center">
         {/* Header */}
-        <div className="reveal">
+        <div className="reveal-blur">
           <span className="inline-block text-champagne text-xs font-body font-semibold tracking-[0.25em] uppercase mb-4">
             Hubungi Kami
           </span>
@@ -51,7 +51,7 @@ export default function Contact() {
         </div>
 
         {/* Info Cards */}
-        <div className="reveal reveal-delay-2 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
+        <div className="reveal-scale reveal-delay-2 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
           {[
             {
               icon: (

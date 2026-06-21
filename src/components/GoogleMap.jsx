@@ -22,17 +22,17 @@ export default function GoogleMap() {
         </div>
 
         {/* Map + Info Card */}
-        <div className="reveal px-4 sm:px-6 pb-16 md:pb-20">
+        <div className="px-4 sm:px-6 pb-16 md:pb-20">
           <div className="relative rounded-2xl overflow-hidden shadow-xl border border-linen">
             {/* Google Maps Embed */}
             <div className="w-full h-[300px] sm:h-[400px] md:h-[450px]">
               <iframe
                 title="Lokasi dhe.dekorasi Gorontalo"
-                src={`https://maps.google.com/maps?q=${MAPS_CONFIG.lat},${MAPS_CONFIG.lng}&z=16&output=embed`}
+                src={MAPS_CONFIG.embedUrl}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen
+                allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />

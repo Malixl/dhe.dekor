@@ -40,7 +40,7 @@ export default function Hero() {
 
         {/* Main Headline — updated copywriting */}
         <h1
-          className={`font-display text-white text-[1.75rem] sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.15] mb-4 transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+          className={`font-display text-white text-[1.75rem] sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.15] mb-4 transition-all duration-1000 ease-out ${loaded ? 'opacity-100 translate-y-0 blur-0 scale-100' : 'opacity-0 translate-y-6 blur-md scale-95'
             }`}
           style={{ transitionDelay: '400ms' }}
         >
@@ -51,7 +51,7 @@ export default function Hero() {
 
         {/* Sub-headline — updated copywriting */}
         <p
-          className={`text-white/80 text-sm sm:text-base md:text-lg font-body font-light max-w-xl mx-auto mb-3 leading-relaxed transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+          className={`text-white/80 text-sm sm:text-base md:text-lg font-body font-light max-w-xl mx-auto mb-3 leading-relaxed transition-all duration-1000 ease-out ${loaded ? 'opacity-100 translate-y-0 blur-0' : 'opacity-0 translate-y-6 blur-sm'
             }`}
           style={{ transitionDelay: '600ms' }}
         >

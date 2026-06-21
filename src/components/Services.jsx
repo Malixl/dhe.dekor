@@ -13,7 +13,7 @@ export default function Services() {
     <section id="layanan" className="section-padding bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="reveal text-center mb-8">
+        <div className="reveal-blur text-center mb-8">
           <span className="inline-block text-champagne text-xs md:text-sm font-body font-semibold tracking-[0.25em] uppercase mb-3">
             Our Services
           </span>
@@ -32,7 +32,7 @@ export default function Services() {
           {SERVICES.map((service, index) => (
             <div
               key={service.id}
-              className={`reveal reveal-delay-${Math.min(index + 1, 6)} group relative bg-ivory rounded-2xl p-8 sm:p-10 border border-linen hover:border-champagne/40 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl flex flex-col h-full`}
+              className={`reveal-scale reveal-delay-${Math.min(index + 1, 6)} group relative bg-ivory rounded-2xl p-8 sm:p-10 border border-linen hover:border-champagne/40 transition-all duration-500 hover:-translate-y-3 hover:shadow-2xl flex flex-col h-full`}
             >
               {/* Header */}
               <div className="mb-6">
