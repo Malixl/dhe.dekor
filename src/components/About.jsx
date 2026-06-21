@@ -36,7 +36,7 @@ export default function About() {
 
             <div className="reveal reveal-delay-1">
               <p className="text-warm-gray text-sm sm:text-base leading-relaxed mb-4">
-                <strong className="text-charcoal">dhe.dekorasi</strong> hadir sebagai solusi
+                <strong className="font-display font-bold text-charcoal">dhe.dekorasi</strong> hadir sebagai solusi
                 dekorasi acara terjangkau di Gorontalo. Kami percaya bahwa setiap momen istimewa
                 layak tampil indah — tanpa harus menguras kantong.
               </p>
@@ -69,7 +69,7 @@ export default function About() {
                   <img src="/Logo.png" alt="Logo dhe.dekorasi" className="w-full h-full object-contain" />
                 </div>
                 <div>
-                  <p className="font-display font-semibold text-charcoal">dhe.dekorasi</p>
+                  <p className="font-display font-bold text-charcoal">dhe.dekorasi</p>
                   <p className="text-warm-gray text-sm">Bone Bolango, Gorontalo</p>
                 </div>
               </div>

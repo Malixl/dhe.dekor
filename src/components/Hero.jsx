@@ -55,7 +55,7 @@ export default function Hero() {
             }`}
           style={{ transitionDelay: '600ms' }}
         >
-          Dari prosesi lamaran hingga syukuran, dhe.dekorasi hadir menyulap hari spesialmu
+          Dari prosesi lamaran hingga syukuran, <strong className="font-display font-bold">dhe.dekorasi</strong> hadir menyulap hari spesialmu
           menjadi lebih indah dan berkesan. Solusi dekorasi estetik dengan harga paling
           bersahabat di Gorontalo.
         </p>

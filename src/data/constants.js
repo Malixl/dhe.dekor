@@ -31,7 +31,7 @@ export const SERVICES = [
     description: 'Paket dekorasi lamaran yang dirancang dengan detail sempurna untuk momen paling berkesan dalam hidupmu.',
     priceStart: 'Rp 500.000',
     features: [
-      'Backdrop custom desain (lebar maks 3m)',
+      // 'Backdrop custom desain (lebar maks 3m)',
       'Meja hantaran + dekorasi bunga',
       'Standing flower 4 pcs',
       'Karpet/aisle decoration',
@@ -51,7 +51,7 @@ export const SERVICES = [
     description: 'Dekorasi ulang tahun meriah yang bisa disesuaikan tema — dari anak-anak hingga dewasa.',
     priceStart: 'Rp 300.000',
     features: [
-      'Backdrop tema custom (lebar maks 2m)',
+      // 'Backdrop tema custom (lebar maks 2m)',
       'Balon helium & balon dekorasi',
       'Meja dessert table setup',
       'Bunting flag & banner nama',
@@ -70,7 +70,7 @@ export const SERVICES = [
     description: 'Dekorasi 7 bulanan yang lembut dan penuh kehangatan untuk menyambut kehadiran buah hati.',
     priceStart: 'Rp 400.000',
     features: [
-      'Backdrop pastel custom design',
+      // 'Backdrop pastel custom design',
       'Dekorasi meja utama',
       'Rangkaian bunga artifisial',
       'Balon dekoratif nuansa pastel',
@@ -89,7 +89,7 @@ export const SERVICES = [
     description: 'Dekorasi syukuran yang rapi dan estetik, cocok untuk acara keluarga dan komunitas.',
     priceStart: 'Rp 200.000',
     features: [
-      'Backdrop simpel elegan',
+      // 'Backdrop simpel elegan',
       'Dekorasi meja prasmanan',
       'Rangkaian bunga meja',
       'Taplak & runner meja premium',
@@ -108,7 +108,7 @@ export const SERVICES = [
     description: 'Dekorasi aqiqah cantik dan bermakna untuk merayakan momen kelahiran buah hati.',
     priceStart: 'Rp 300.000',
     features: [
-      'Backdrop nuansa islami / pastel',
+      // 'Backdrop nuansa islami / pastel',
       'Dekorasi meja utama',
       'Rangkaian bunga segar/artifisial',
       'Balon dekorasi',
