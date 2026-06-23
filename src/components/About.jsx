@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="tentang" className="section-padding bg-white">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center overflow-hidden">
           {/* Gradient Block */}
           <div className="reveal-left relative">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/5] max-w-sm mx-auto lg:max-w-none bg-gradient-to-tr from-champagne-light via-ivory to-champagne/30 flex items-center justify-center">

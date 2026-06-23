@@ -34,7 +34,7 @@ export default function Navbar() {
           onClick={(e) => handleNavClick(e, '#beranda')}
           className="flex items-center gap-2 sm:gap-3 group"
         >
-          <img src="/Logo.png" alt="Logo dhe.dekorasi" className="h-8 md:h-10 w-auto object-contain drop-shadow-md" />
+          <img src="/LogoDheDekor NoTextnobg.png" alt="Logo dhe.dekorasi" className="h-8 md:h-10 w-auto object-contain drop-shadow-md" />
           <span className="text-xl md:text-2xl font-display font-bold tracking-tight">
             <span className={scrolled ? 'text-charcoal' : 'text-white'}>dhe.</span>
             <span className="text-champagne">dekorasi</span>
